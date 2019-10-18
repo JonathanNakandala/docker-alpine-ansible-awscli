@@ -4,5 +4,7 @@ RUN apk add --no-cache \
         py3-pip \
         curl \
         ansible \
+        ca-certificates \ 
+        openssh-client
         && \
         pip3 install awscli docker 
